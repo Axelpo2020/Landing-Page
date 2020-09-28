@@ -1,0 +1,46 @@
+/* ==|====================
+   Layout/Nav
+   ======================= */
+.inner {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+nav {
+   width: 80%;
+   height: 120px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.nav__container--logo {
+   display: flex;
+}
+
+.nav-links {
+   display: flex;
+
+   a {
+      color: black;
+      text-decoration: none;
+   }
+
+   .pr-30 {
+      padding-right: 60px;
+   }
+}
+
+@media screen and (max-width: 611px) {
+   nav {
+      width: 90%;
+   }
+   .nav__container--logo {
+      width: 80px;
+   }
+   .pr {
+      padding-right: 22px;
+   }
+}

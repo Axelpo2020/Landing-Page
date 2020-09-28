@@ -1,0 +1,176 @@
+/*
+ * SMACSS + SCSS starter v2.1
+ * Inspired by SMACSS http://smacss.com
+ * Author: @jonathanpath
+ * Date: 4 August 2015
+ *
+ * https://github.com/jonathanpath/SASS-SMACSS
+ * See file structure in http://jonathanpath.com/sass+smacss/scss/style.scss
+ *
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
+ */
+/* Site settings */
+p::-moz-selection {
+  color: #8e0000;
+}
+p::selection {
+  color: #8e0000;
+}
+
+/* Vendor */
+/* Override */
+/* Base */
+/* ===========================
+   Base
+   =========================== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Layouts */
+/* ==|====================
+   Layout/Nav
+   ======================= */
+.inner {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav {
+  width: 80%;
+  height: 120px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__container--logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links .pr-30 {
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 611px) {
+  nav {
+    width: 90%;
+  }
+  .nav__container--logo {
+    width: 80px;
+  }
+  .pr {
+    padding-right: 22px;
+  }
+}
+
+/* ==|====================
+   Layout/Footer
+   ======================= */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* Modules */
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+td:not([align]), th:not([align]) {
+  text-align: left;
+}
+
+/* ===========================
+   Spacing
+   =========================== */
+.mr-45 {
+  margin-right: 45px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
