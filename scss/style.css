@@ -34,6 +34,7 @@ body {
 }
 
 .inner {
+  background-color: antiquewhite;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,6 +45,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* Layouts */
@@ -52,6 +56,7 @@ body {
    ======================= */
 nav {
   width: 80%;
+  background-color: aquamarine;
   height: 120px;
   background-color: white;
   display: -webkit-box;
@@ -93,6 +98,90 @@ nav {
   .nav__container--logo {
     width: 80px;
   }
+}
+
+/* ==|====================
+   Layout/Header
+   ======================= */
+#header {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  background-color: blue;
+}
+
+.header__container--left {
+  width: 50%;
+  background-color: rebeccapurple;
+}
+
+.right {
+  background-color: red;
+  width: 50%;
+  height: 100;
+}
+
+.header__container--txt {
+  width: 100%;
+  background-color: violet;
+  width: 94%;
+}
+
+.h3 {
+  font-size: 39px;
+  line-height: 1.4;
+}
+
+.header__p {
+  margin-top: 23px;
+  line-height: 26px;
+  font-size: 17px;
+}
+
+.input-email {
+  width: 400px;
+  padding: 11px;
+  border: 1px solid black;
+  margin-right: 20px;
+  color: red;
+  border-radius: 2px;
+}
+
+.input-email::-webkit-input-placeholder {
+  color: red;
+}
+
+.input-email:-ms-input-placeholder {
+  color: red;
+}
+
+.input-email::-ms-input-placeholder {
+  color: red;
+}
+
+.input-email::placeholder {
+  color: red;
+}
+
+button {
+  width: 200px;
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.header__form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* ==|====================
@@ -162,15 +251,4 @@ td:not([align]), th:not([align]) {
 /* ===========================
    Spacing
    =========================== */
-.mr-45 {
-  margin-right: 45px;
-}
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.mt-15 {
-  margin-top: 15px;
-}
 /*# sourceMappingURL=style.css.map */
