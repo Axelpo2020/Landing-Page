@@ -1,12 +1,6 @@
 /* ==|====================
    Layout/Nav
    ======================= */
-.inner {
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-}
-
 nav {
    width: 80%;
    height: 120px;
@@ -28,7 +22,7 @@ nav {
       text-decoration: none;
    }
 
-   .pr-30 {
+   li {
       padding-right: 60px;
    }
 }
@@ -39,8 +33,5 @@ nav {
    }
    .nav__container--logo {
       width: 80px;
-   }
-   .pr {
-      padding-right: 22px;
    }
 }

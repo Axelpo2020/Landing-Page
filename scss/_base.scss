@@ -11,3 +11,8 @@ body {
    font-family: $font-primary;
 }
 
+.inner {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
