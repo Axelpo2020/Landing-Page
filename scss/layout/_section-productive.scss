@@ -1,0 +1,53 @@
+/* ==|====================
+   Layout/Section productive
+   ======================= */
+.container__section--productive {
+    margin-top: 250px;
+    background: hsl(240, 75%, 98%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.container__section--productive::before {
+content: '';
+display: block;
+background: url('/images/bg-curve-desktop.svg') no-repeat;
+background-size: cover;
+width: 100%;
+height: 30%;
+position: absolute;
+top: -30%;
+
+}
+
+.productive__container--right {
+    width: 40%;
+}
+
+
+.btn--secondary {
+    color: hsl(170, 45%, 43%);
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid hsl(170, 45%, 43%);
+    position: relative;
+}
+
+.btn--secondary::after {
+    content: '';
+    background: url('/images/icon-arrow.svg') no-repeat;
+    background-size: cover;
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 3px;
+    right: -30px;
+
+
+}
+
+
+// - Light Grayish Blue: hsl(240, 75%, 98%)
+// - Light Gray: hsl(0, 0%, 75%)

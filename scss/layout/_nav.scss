@@ -2,7 +2,6 @@
    Layout/Nav
    ======================= */
 nav {
-   width: 80%;
    height: 120px;
    background-color: white;
    display: flex;
@@ -23,8 +22,8 @@ nav {
    }
 
    li {
-      padding-right: 60px;
-      color: inherit;
+      margin-left: 1.5rem;
+      color: #070439;
    }
 }
 

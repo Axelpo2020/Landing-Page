@@ -3,17 +3,70 @@
    =========================== */
 
 html {
-      scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 body {
    background-color: white;
    font-family: $font-primary;
+   font-weight: 400;
+}
+
+//Width of containers section
+.w {
+   width: 90%;
+}
+
+.section__width {
+   width: 50%;
 }
 
 .inner {
-  display: flex;
+   display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+
+
+//btn
+.btn {
+   border: none;
+   text-decoration: none;
+}
+
+.btn--primary {
+   width: 170px;
+   padding: .875rem 1.3rem;
+   border-radius: 3px;
+   background-color: hsl(224, 93%, 58%);
+   color: white;
+   font-weight: 700;
+   &:hover {
+      cursor: pointer;
+      opacity: 0.9;
+   }
+}
+
+
+//Title of sections
+.section__title {
+   font-size: 39px;
+   line-height: 1.4;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+}
+
+.section__p {
+   margin-top: 23px;
+   line-height: 26px;
+   font-size: 17px;
+   color: black;
+   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 727px) {
+   .w {
+      width: 80%;
+   }
 }
