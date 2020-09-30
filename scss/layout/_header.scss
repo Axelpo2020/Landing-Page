@@ -3,27 +3,22 @@
    ======================= */
 
 #header {
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    width: 80%;
-    background-color: blue;
+   display: flex;
+   align-items: center;
+   width: 80%;
 }
 
-.header__container--left{
+.header__container--left {
    width: 50%;
-   background-color: rebeccapurple;
 }
 
 .right {
-   background-color: red;
    width: 50%;
    height: 100;
 }
 
 .header__container--txt {
    width: 100%;
-   background-color: violet;
    width: 94%;
 }
 
@@ -45,12 +40,13 @@
    margin-right: 20px;
    color: red;
    border-radius: 2px;
+
    &::placeholder {
-      color: red;
+      color: gray;
    }
 }
 
-button{
+.btn-submit {
    width: 200px;
    background-color: blue;
    border: none;
@@ -64,3 +60,64 @@ button{
    display: flex;
 }
 
+
+@media screen and (max-width: 1020px) {
+   #header {
+      width: 90%;
+   }
+
+   .h3 {
+      font-size: 33px;
+   }
+
+   .header__p {
+      font-size: 13px;
+   }
+}
+
+@media screen and (max-width: 727px) {
+   #header {
+      width: 80%;
+      flex-direction: column-reverse;
+   }
+
+   .header__container--left {
+      width: 100%;
+      margin-top: 38px;
+   }
+
+   .header__container--right {
+      width: 100%;
+   }
+
+   .header__container--txt {
+      width: 100%;
+   }
+
+   .header__p,
+   .h3 {
+      text-align: center;
+   }
+
+   .h3 {
+      font-size: 26px;
+   }
+
+   .header__p {
+      line-height: 21px;
+   }
+
+   .header__form {
+      flex-direction: column;
+   }
+
+   .input-email,
+   .input-email {
+      width: 100%;
+   }
+
+   .btn-submit {
+      height: 35px;
+      margin-top: 15px;
+   }
+}

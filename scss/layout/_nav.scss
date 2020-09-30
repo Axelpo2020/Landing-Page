@@ -3,7 +3,6 @@
    ======================= */
 nav {
    width: 80%;
-   background-color: aquamarine;
    height: 120px;
    background-color: white;
    display: flex;
@@ -28,11 +27,24 @@ nav {
    }
 }
 
-@media screen and (max-width: 611px) {
+@media screen and (max-width: 1020px) {
    nav {
       width: 90%;
    }
-   .nav__container--logo {
+
+}
+
+@media screen and (max-width: 727px) {
+   nav {
+      width: 80%;
+   }
+
+   .logo {
       width: 80px;
+   }
+
+   .nav-links li {
+      padding-right: 13px;
+      font-size: 15px;
    }
 }
