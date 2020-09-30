@@ -80,6 +80,7 @@ nav {
 
 .nav-links li {
   padding-right: 60px;
+  color: inherit;
 }
 
 @media screen and (max-width: 1020px) {
@@ -141,10 +142,10 @@ nav {
 
 .input-email {
   width: 400px;
-  padding: 11px;
+  padding: .875rem 1.3rem;
+  border: 0.6px solid var(--clr-verydarkblue);
   border: 1px solid black;
   margin-right: 20px;
-  color: red;
   border-radius: 2px;
 }
 
@@ -165,12 +166,19 @@ nav {
 }
 
 .btn-submit {
-  width: 200px;
-  background-color: blue;
   border: none;
+  font-size: 15px;
+  width: 200px;
+  padding: .875rem 1.3rem;
   border-radius: 3px;
+  background-color: #3065f8;
   color: white;
-  font-weight: bold;
+  font-weight: var(--fw-bold);
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 .header__form {

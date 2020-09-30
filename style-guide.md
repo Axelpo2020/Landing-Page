@@ -25,7 +25,7 @@ The designs were created to the following widths:
 - Light Gray: hsl(0, 0%, 75%)
 
 ## Typography
-
+   
 ### Headings, Call-to-actions, Header Navigation
 
 - Family: [Raleway](https://fonts.google.com/specimen/Raleway)
