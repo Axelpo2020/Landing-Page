@@ -11,19 +11,26 @@
 }
 
 .container__section--productive::before {
-content: '';
-display: block;
-background: url('/images/bg-curve-desktop.svg') no-repeat;
-background-size: cover;
-width: 100%;
-height: 30%;
-position: absolute;
-top: -30%;
+    content: '';
+    display: block;
+    background: url('/images/bg-curve-desktop.svg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: -30%;
+}
 
+@media screen and (max-width: 727px) {
+    .container__section--productive::before {
+        background: url('/images/bg-curve-mobile.svg') no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
 }
 
 .productive__container--right {
-    width: 40%;
+    width: 50%;
 }
 
 
@@ -44,8 +51,17 @@ top: -30%;
     position: absolute;
     top: 3px;
     right: -30px;
+}
 
+//Container flex direction reverse
+@media screen and (max-width: 727px) {
+    #productive {
+        flex-direction: column-reverse;
+    }
 
+    .productive__container--right {
+        width: 90%;
+    }
 }
 
 
