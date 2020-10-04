@@ -2,7 +2,7 @@
    Layout/Nav
    ======================= */
 nav {
-   height: 120px;
+   height: 159px;
    background-color: white;
    display: flex;
    align-items: center;
@@ -31,7 +31,9 @@ nav {
 
 
 @media screen and (max-width: 727px) {
-
+   nav {
+      height: 100px;
+   }
    .logo {
       width: 80px;
    }

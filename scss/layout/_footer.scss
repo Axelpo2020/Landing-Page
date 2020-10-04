@@ -2,6 +2,27 @@
    Layout/Footer
    ======================= */
 
+.container__footer {
+   height: 457px;
+   background-color: #060338;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   width: 100%;
+}
+
+
+.contact__phone, .contact__mail {
+   display: flex;
+   color: white;
+   align-self: center;
+}
+
+.contact__logo {
+   width: 20px;
+   height: 16px;
+   margin-right: 20px;
+}
 .attribution {
    font-size: 11px;
    text-align: center;

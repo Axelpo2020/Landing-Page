@@ -1,0 +1,43 @@
+/* ==|====================
+   Layout/Section subscription
+   ======================= */
+
+.container__section--subscription {
+    width: 100%;
+    height: 318px;
+    background-color: #585A89;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sub__title {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.sub__p {
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.subscription__container--right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.subscription__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input--sub {
+    width: 100%;
+}
+.btn--sub {
+    width: 100%;;
+}
