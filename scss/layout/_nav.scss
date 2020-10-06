@@ -1,7 +1,7 @@
 /* ==|====================
    Layout/Nav
    ======================= */
-nav {
+.header__nav {
    height: 159px;
    background-color: white;
    display: flex;
@@ -26,9 +26,6 @@ nav {
       color: #070439;
    }
 }
-
-
-
 
 @media screen and (max-width: 727px) {
    nav {

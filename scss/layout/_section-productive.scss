@@ -120,6 +120,12 @@
     }
 
     .productive__container--testimonial {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:592px) {
+    .productive__container--testimonial {
         width: 100%;
     }
 }

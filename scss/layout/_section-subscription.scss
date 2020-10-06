@@ -8,6 +8,7 @@
     background-color: #585A89;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .sub__title {
@@ -21,11 +22,11 @@
     color: white;
     font-size: 16px;
     font-weight: 100;
+    width: 80%;
 }
 
 .subscription__container--right {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
 }
 
@@ -44,7 +45,28 @@
 }
 
 @media screen and (max-width: 727px) {
+    .container__section--subscription {
+        height: 410px;
+    }
     #subscription {
         flex-direction: column;
+    }
+    .sub__title {
+        font-size: 24px;
+    }
+    .sub__p {
+        text-align: center;
+        font-size: 13px;
+        width: 100%;
+    }
+    .subscription__form {
+        width: 100%;
+    }
+    .input--sub {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .btn--sub {
+        width: 100%;
     }
 }
