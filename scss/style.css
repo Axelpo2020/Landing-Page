@@ -530,14 +530,25 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 80%;
 }
 
 .input--sub {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .btn--sub {
-  width: 100%;
+  width: 174px;
+}
+
+@media screen and (max-width: 727px) {
+  #subscription {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 /* ==|====================
