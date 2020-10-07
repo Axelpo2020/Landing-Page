@@ -367,14 +367,15 @@ td:not([align]), th:not([align]) {
   background: url("/images/bg-curve-desktop.svg") no-repeat;
   background-size: cover;
   width: 100%;
-  height: 30%;
+  height: 21%;
   position: absolute;
-  top: -30%;
+  top: -21%;
+  background-position: top;
 }
 
 @media screen and (max-width: 727px) {
   .container__section--productive::before {
-    background: url(/images/bg-curve-mobile.svg) no-repeat;
+    background: url("/images/bg-curve-mobile.svg") no-repeat;
     background-position: top;
     background-size: cover;
     height: 136px;
@@ -412,10 +413,12 @@ td:not([align]), th:not([align]) {
 }
 
 .productive__container--testimonial {
+  -webkit-box-shadow: -1px 2px 8px 5px rgba(171, 168, 171, 0.42);
+          box-shadow: -1px 2px 8px 5px rgba(171, 168, 171, 0.42);
   margin-top: 50px;
   width: 60%;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 6px;
   padding: 27px;
 }
 
